@@ -1,0 +1,78 @@
+/* Tablet */
+
+@media (max-width: 1023px) {
+  .film-appreciate {
+    white-space: nowrap;
+  }
+  .film-appreciate-rate {
+    font-size: 16px;
+  }
+  .film-appreciate-view-count {
+    margin: 0 4px;
+  }
+  .footer-contact div {
+    text-align: center;
+  }
+  .nav-header__logo {
+    width: 100px;
+  }
+  .nav-menu {
+    position: relative;
+    display: flex;
+  }
+  .nav-menu__icon {
+    display: block;
+  }
+  .nav-menu__icon-search {
+    display: block;
+  }
+}
+
+/* tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+/* mobile */
+
+@media (max-width: 739px) {
+  .app,
+  .footer {
+    padding: 0 15px;
+  }
+  .nav {
+    padding: 0 16px 0 20px;
+  }
+  .slider {
+    margin-top: 65px;
+    background-color: #000;
+  }
+  #main {
+    background-color: #000;
+  }
+  .cinema-film__le-hot-item .film-appreciate-view-wrapper {
+    margin-right: 30px;
+  }
+  .chat-box,
+  .chat-box-real {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+  }
+  .modal-body {
+    min-width: unset;
+    width: 96%;
+  }
+  .modal-body__form {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+  .film-appreciate-rate {
+    font-size: 16px;
+  }
+  .cinema-film__le-hot-item .film-appreciate-rate {
+    padding-right: 20px;
+  }
+}
